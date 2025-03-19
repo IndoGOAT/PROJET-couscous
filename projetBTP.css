@@ -1,11 +1,14 @@
 
 
 p{
-color: blue;
+color: dark blue;
 }
 h2{
-color: blue;
+color: black;
 }
 h1{
-color: black;
+color: red;
+}
+body{
+  background-color: lightblue;
 }
