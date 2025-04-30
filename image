@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="projetBTP.css" />
+<body>
+<p>Voici une image d'un service de ravallement et de gommage :<br />
+<img src="https://www.ravalement-pro.fr/wp-content/uploads/2024/04/Ravalement-a-la-chaux-a-Versailles-scaled.jpg" alt="Image d'un service de ravallement et de gommage" />
+</p>
+</body>
+</head>
+</html>
