@@ -10,22 +10,76 @@
 <label for="nom"> Nom :</label> 
 <input type="text" name="nom" /> </br></br>
 
-<label for="prenom"> prenom :</label>
+<label for="prenom"> Prenom :</label>
 <input type="text" name="prenom" /> </br></br>
 
-<label for="genre"> genre :</label> <br/>
-<select name="genre" id="liste" size="3">
-<option value="1"> homme </option>
-<option value="2"> femme </option>
-</select></br>
+<label for="genre"> Genre :</label> 
+<select name="genre" id="liste" size="1">
+<option value="1"> Homme </option>
+<option value="2"> Femme </option>
+</select></br></br>
 
-<label for="age"> âge :<label>
-<input type="number" name="age" /> </br></br>
+<label for="age"> Âge :<label>
+<input type="number" name="age" /> </br>
 
-<label
+</br> <label for="personne"> Vous êtes :</label> 
+<select name="personne" id="liste" size="1">
+<option value="1"> Particulier </option>
+<option value="2"> Société </option>
+<option value="3"> Commerçant </option>
+<option value="4"> Industrielle </option>
+<option value="5"> Administration </option>
+<option value="6"> Association </option>
+<option value="7"> Autre </option></select>
+<label for="situation"> et :</label>
+<select name="situation" id="liste" size="1">
+<option value="1"> Propriétaire occupant </option>
+<option value="2"> Futur propriétaire </option>
+<option value="3"> Locataire </option>
+<option value="4"> Futur locataire </option>
+<option value="5"> Administrateur </option>
+<option value="6"> Autre </option></select>
+</br></br>
 
+<input type="text" size="17" placeholder="Code postal"  name="cus_postcode" value required autocomplete="off">
+<input type="text" size="17" placeholder="Ville"  name="ville" value required autocomplete="off"> </br>
+</br><input type="text" size="18" placeholder="Email"  name="email" value required autocomplete="off"> </br></br>
+
+Précisez un numéro de téléphone et une heure pour convenir d'un appel téléphonique pour prendre "rendez vous"
+</br>
+</br><input type="text" size="18" placeholder="Telephone"  name="telephone" value required autocomplete="off"> 
+<label for="heure"> de :</label>
+<select name="heure" id="liste" size="1">
+<option value="1"> 08h </option>
+<option value="2"> 09h </option>
+<option value="3"> 10h </option>
+<option value="4"> 11h </option>
+<option value="5"> 12h </option>
+<option value="6"> 14h </option>
+<option value="7"> 15h </option>
+<option value="8"> 16h </option>
+<option value="9"> 17h </option>
+<option value="10"> 18h </option>
+</select>
+<label for="heure"> à :</label>
+<select name="heure" id="liste" size="1">
+<option value="1"> 08h </option>
+<option value="2"> 09h </option>
+<option value="3"> 10h </option>
+<option value="4"> 11h </option>
+<option value="5"> 12h </option>
+<option value="6"> 14h </option>
+<option value="7"> 15h </option>
+<option value="8"> 16h </option>
+<option value="9"> 17h </option>
+<option value="10"> 18h </option>
+</select>
+<label> </br></br>
+<input type="checkbox" id="acceptcgu" name="acceptcgu" value="1" required>" J'ai lu et j'accepte les "<a href="https://indogoat.github.io/PROJET-couscous/mentionBTP.html" target="_blank">POJET-couscous/mention/BTP.html</a>". En particulier, j'accepte d'être recontacté par des artisans, par téléphone ou par mail, pour avancer dans mon projet de travaux."
+<br> " Vous disposez du droit de vous inscrire sur la liste d'opposition au démarchage téléphonique : "
+<a href="https://www.bloctel.gouv.fr/" target="_blank">bloctel.gouv.fr</a>
 </form>
+</html>
 </fieldset>
 </body>
 </head>
-</html>
