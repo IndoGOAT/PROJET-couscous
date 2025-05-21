@@ -5,13 +5,6 @@
 <link rel="stylesheet" href="projetBTP.css" />
 <body>
 <h1> Formulaire de devis </h1>
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
 <fieldset width ="400">
 <form method="post" action="test.php">
 <h2> JE RENSEIGNE MES COORDONNEES </h2>
@@ -86,6 +79,17 @@ Précisez un numéro de téléphone et une heure pour convenir d'un appel télé
 <input type="checkbox" id="acceptcgu" name="acceptcgu" value="1" required>" J'ai lu et j'accepte les "<a href="https://indogoat.github.io/PROJET-couscous/mentionBTP.html" target="_blank">POJET-couscous/mention/BTP.html</a>". En particulier, j'accepte d'être recontacté par des artisans, par téléphone ou par mail, pour avancer dans mon projet de travaux."
 <br> " Vous disposez du droit de vous inscrire sur la liste d'opposition au démarchage téléphonique : "
 <a href="https://www.bloctel.gouv.fr/" target="_blank">bloctel.gouv.fr</a>
+<article>
+  <h1>JE DECRIS MON PROJET </h1>
+   </br>
+<input type="text" size="17" placeholder="Prestation souhaitée :"  name="cus_postcode" value required autocomplete="off">
+<option value="1"> Fourniture et pose </option>
+<option value="2"> Pose uniquement </option>
+<option value="3"> Fourniture uniquement </option>
+</br>
+
+</article>
+
 </form>
 </html>
 </fieldset>
